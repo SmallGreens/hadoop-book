@@ -7,6 +7,9 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * test git sync.
+ */
 public class MaxTemperatureMapper
   extends Mapper<LongWritable, Text, Text, IntWritable> {
 
